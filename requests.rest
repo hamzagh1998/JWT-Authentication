@@ -1,0 +1,28 @@
+GET http://127.0.0.1:3000/
+
+###
+GET http://127.0.0.1:3000/posts
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTU5OTgzOTY5NjkxOCwidXNlcm5hbWUiOiJzYWxlaCIsImlhdCI6MTU5OTg0MTY1Nn0.wk81nKNhDBIcJvAD1qdg1w29ufFa3Nf4IdEbNbUJ_lM
+
+###
+GET http://127.0.0.1:3000/users
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTU5OTgzOTY5NjkxOCwidXNlcm5hbWUiOiJzYWxlaCIsImlhdCI6MTU5OTg0MTY1Nn0.wk81nKNhDBIcJvAD1qdg1w29ufFa3Nf4IdEbNbUJ_lM
+
+###
+POST http://127.0.0.1:3000/auth/login
+Content-Type: application/json
+
+{
+  "username": "saleh",
+  "password": "123456"
+}
+
+###
+POST http://127.0.0.1:3000/auth/register
+Content-Type: application/json
+
+{
+  "username": "kiko",
+  "password": "123456",
+  "confirm-password": "123456"
+}
