@@ -1,27 +1,7 @@
 [
   {
-    "username": "amin",
-    "password": "$2b$10$31Tl89i2CiqNvebWJGzdP.v5SzeZcdLKQG58wkelZzOia6f1OHj12",
-    "id": 1599837881137
-  },
-  {
-    "username": "amal",
-    "password": "$2b$10$sbRhuCFdxyqjU..i6aYQv.TAs0HX9o2HxZxscND/4MnOJOxzYUtpq",
-    "id": 1599839602782
-  },
-  {
-    "username": "saleh",
-    "password": "$2b$10$eV962JKkQarRGRIt9uRufuC2WvDh6FH.s/bou64b6F/q58RogCWyG",
-    "id": 1599839696918
-  },
-  {
-    "username": "sami",
-    "password": "$2b$10$Nl8FsJx.leGu5v1VqPT9nO6JZXE7gF3ETgXwr34Z2Q1gzyDTCRlfK",
-    "id": 1599843930419
-  },
-  {
     "username": "jon",
-    "password": "$2b$10$6MiEwJeIkao9OhoNKqsb4O7qCJOKo2E53ms3E8ypOJI9wY219lDu.",
-    "id": 1599843960080
+    "password": "$2b$10$0Hk7FqBEGDvagqbigDnQP.sb4jW2RwcLsaalMQnK/HdfNBm91UDNC",
+    "id": 1599845958507
   }
 ]
