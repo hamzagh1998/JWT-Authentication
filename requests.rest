@@ -8,17 +8,17 @@ Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTU5OTg0NTk1O
 GET http://127.0.0.1:3000/users
 Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTU5OTg0NTk1ODUwNywidXNlcm5hbWUiOiJqb24iLCJpYXQiOjE1OTk4NDU5NzJ9.ojwqgqm8SN7BR4UU36dJ1Bts6xxnqsHT2NHvMQjNtIE
 
-###
+### Register
 POST http://127.0.0.1:3000/auth/register
 Content-Type: application/json
 
 {
-  "username": "jon",
+  "username": "saleh",
   "password": "123456",
   "confirm-password": "123456"
 }
 
-###
+### login
 POST http://127.0.0.1:3000/auth/login
 Content-Type: application/json
 
